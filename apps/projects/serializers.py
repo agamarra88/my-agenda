@@ -6,7 +6,7 @@ from models import Project
 
 
 class ProjectSerializer(serializers.ModelSerializer):
-    client = CompanySerializer(read_only=True)
+    # client = CompanySerializer(read_only=True)
 
     class Meta:
         model = Project

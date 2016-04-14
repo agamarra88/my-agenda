@@ -46,6 +46,7 @@ LOCAL_APPS = (
     'apps.contacts',
     'apps.levels',
     'apps.teams',
+    'apps.groups',
 )
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
