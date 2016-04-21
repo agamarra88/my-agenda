@@ -4,8 +4,6 @@ from models import MyGroups
 
 
 class MyGroupsSerializer(serializers.ModelSerializer):
-    created = serializers.CharField(source='created_at')
-
     class Meta:
         model = MyGroups
-        fields = ('id', 'groups', 'user')
+        fields = ('id', 'group', 'user')

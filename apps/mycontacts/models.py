@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
 from django.contrib.auth.models import User
@@ -17,7 +18,7 @@ class MyContact(models.Model):
 
     class Meta:
         ordering = ('created_at',)
-        app_label = 'my contact'
+        app_label = 'mycontacts'
         db_table = 'app_my_contact'
-        verbose_name = 'My Contact'
-        verbose_name_plural = 'My Contacts'
+        verbose_name = 'MyContact'
+        verbose_name_plural = 'MyContacts'

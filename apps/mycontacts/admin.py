@@ -5,7 +5,7 @@ from apps.mycontacts.models import MyContact
 
 class MyContactAdmin(admin.ModelAdmin):
     model = MyContact
-    list_display = ['id', 'user', 'contact', 'is_admin']
+    list_display = ['id', 'user', 'contact', 'is_active']
     search_fields = ['id', ]
 
 

@@ -47,6 +47,7 @@ LOCAL_APPS = (
     'apps.levels',
     'apps.teams',
     'apps.groups',
+    'apps.mycontacts',
     'apps.mygroups',
 )
 
